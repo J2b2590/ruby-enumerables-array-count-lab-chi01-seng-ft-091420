@@ -4,7 +4,7 @@ def count_strings(array)
 
 
 
-index = 0
+
 nums = []
 
   array.count do
@@ -13,7 +13,7 @@ nums = []
       }
       nums << array
     end
-    index += 1
+    
   end
 nums
 
