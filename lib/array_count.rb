@@ -13,10 +13,11 @@ def count_empty_strings(array)
   i = 0
   empty_array = []
   while i < array.count do
-    if array.i.blank?
+    if array.i == " "
       empty_array << array.i
     end
+    i += 1
+  end
+    empty_array.length
+  end
 
-  end
-    empty_array.count
-  end
