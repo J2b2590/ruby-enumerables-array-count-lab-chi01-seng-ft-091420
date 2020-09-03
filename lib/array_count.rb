@@ -5,7 +5,7 @@ nums = []
 nums = array.select {
     |element| element.is_a?(Integer)
   }
-nums.length
+nums.count
 
 
 end
