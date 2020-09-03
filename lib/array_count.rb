@@ -13,7 +13,7 @@ def count_empty_strings(array)
   i = 0
   empty_array = []
   while i < array.count do
-    if array[i].select {|element| element.is_a?(" ")}
+    if array[i].select {|element| element.is_a?(string)}
       empty_array << array[i]
     end
     i += 1
