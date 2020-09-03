@@ -7,9 +7,9 @@ nums = array.select {
   }
 
 # index = 0
-# 
+#
 #   while index < nums.length do
-# 
+#
 #     index += 1
 #   end
 
