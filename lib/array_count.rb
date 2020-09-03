@@ -7,6 +7,8 @@ nums = array.select {
   }
 nums.count
 
+nums
+
 
 end
 
