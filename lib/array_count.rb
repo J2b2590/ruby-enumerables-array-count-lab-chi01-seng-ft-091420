@@ -8,11 +8,11 @@ def count_strings(array)
 nums = []
 
 
- array.select {
+ nums = array.select {
         |element| element.is_a?(Integer)
       }
 
-array.select
+nums
 
 
 end
