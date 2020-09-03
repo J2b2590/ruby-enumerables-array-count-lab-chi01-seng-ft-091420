@@ -11,7 +11,7 @@ def count_empty_strings(array)
 
 # array.partition(&:prepend).count
 
-puts array.include?(" ").count
+puts array.include?(" ")
 
 
 
