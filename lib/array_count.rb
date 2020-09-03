@@ -9,7 +9,7 @@ end
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 
-puts array.partition(&:nil?).count
+puts array.partition(&:blank?).count
 
 
   end
