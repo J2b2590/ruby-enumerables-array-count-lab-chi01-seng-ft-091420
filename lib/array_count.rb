@@ -14,5 +14,5 @@ if array.partition(&:number?)
 elsif array.partition(&:blank?) || .partition(&:empty?)
   blank_arr = array
 end
-
+puts blank_arr
   end
