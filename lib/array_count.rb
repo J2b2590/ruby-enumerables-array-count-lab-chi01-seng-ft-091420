@@ -11,7 +11,7 @@ def count_empty_strings(array)
 
 if array.partition(&:number?)
   int_arr = array
-elsif array.partition(&:blank?) || .partition(&:empty?)
+elsif array.partition(&:blank?) || array.partition(&:empty?)
   blank_arr = array
 end
 puts blank_arr
