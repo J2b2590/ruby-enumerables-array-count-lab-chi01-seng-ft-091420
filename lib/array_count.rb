@@ -6,7 +6,7 @@ array.select {
     |element| element.is_a?(Integer)
     nums << array.select
   }
-
+puts nums
 end
 
 def count_empty_strings(array)
