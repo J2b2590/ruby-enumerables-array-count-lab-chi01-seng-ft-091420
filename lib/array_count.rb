@@ -11,7 +11,7 @@ nums = []
     if array.select {
         |element| element.is_a?(Integer)
       }
-       
+
     end
     index += 1
   end
