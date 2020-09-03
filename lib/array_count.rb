@@ -6,12 +6,12 @@ nums = array.select {
     |element| element.is_a?(Integer)
   }
 
-index = 0
-
-  while index < nums.length do
-
-    index += 1
-  end
+# index = 0
+# 
+#   while index < nums.length do
+# 
+#     index += 1
+#   end
 
 nums.length
 end
