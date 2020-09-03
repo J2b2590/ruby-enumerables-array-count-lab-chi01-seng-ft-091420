@@ -7,7 +7,7 @@ def count_strings(array)
 index = 0
 nums = []
 
-  while index < array.count do
+  array.count do
     if array.select {
         |element| element.is_a?(Integer)
       }
