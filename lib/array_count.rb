@@ -4,7 +4,7 @@ def count_strings(array)
 
 nums = array.select {
     |element| element.is_a?(Integer)
-    nums.count
+    array.count
   }
 
 # index = 0
