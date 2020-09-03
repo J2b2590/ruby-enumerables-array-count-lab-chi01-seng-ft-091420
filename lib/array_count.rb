@@ -11,9 +11,9 @@ nums = []
     if array.select {
         |element| element.is_a?(Integer)
       }
-      nums << array
+      
     end
-    
+    nums << array
   end
 nums
 
