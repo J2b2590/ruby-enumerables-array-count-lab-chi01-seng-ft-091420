@@ -5,7 +5,13 @@ def count_strings(array)
 nums = array.select {
     |element| element.is_a?(Integer)
   }
-nums.length
+  
+index = 0 
+
+  while index < nums.length do
+    
+    index += 1
+  end
 
 
 end
