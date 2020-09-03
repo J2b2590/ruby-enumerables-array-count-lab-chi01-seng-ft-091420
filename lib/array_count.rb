@@ -1,10 +1,9 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
-nums = array.select {
+array.select {
     |element| element.is_a?(Integer)
   }
-
-  nums.count
+array.length
 end
 
 def count_empty_strings(array)
