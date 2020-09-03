@@ -13,7 +13,7 @@ index = 0
     index += 1
   end
 
-nums
+nums.length
 end
 
 def count_empty_strings(array)
