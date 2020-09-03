@@ -8,8 +8,6 @@ nums = array.select {
 nums.count
 
 nums
-
-
 end
 
 def count_empty_strings(array)
