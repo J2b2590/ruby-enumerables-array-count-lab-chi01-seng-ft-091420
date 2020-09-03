@@ -4,6 +4,7 @@ def count_strings(array)
 
 nums = array.select {
     |element| element.is_a?(Integer)
+    nums.size
   }
 
 # index = 0
@@ -13,7 +14,7 @@ nums = array.select {
 #     index += 1
 #   end
 
-nums.size
+
 end
 
 def count_empty_strings(array)
