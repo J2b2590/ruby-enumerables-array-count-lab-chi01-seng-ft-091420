@@ -11,9 +11,9 @@ def count_empty_strings(array)
 
 # array.partition(&:prepend).count
 
+puts array.select {|element| element == ""}.count
+
 array.select {|element| element == ""}.count
-
-
 
 
   end
