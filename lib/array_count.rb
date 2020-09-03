@@ -5,15 +5,15 @@ def count_strings(array)
 nums = array.select {
     |element| element.is_a?(Integer)
   }
-  
-index = 0 
+
+index = 0
 
   while index < nums.length do
-    
+
     index += 1
   end
 
-
+nums
 end
 
 def count_empty_strings(array)
