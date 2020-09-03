@@ -14,7 +14,7 @@ def count_empty_strings(array)
   empty_array = []
   while i < array.count do
     if array[i].empty?  && array[i].blank?
-      empty_array << array[i].empty?
+      empty_array << array[i]
     end
     i += 1
   end
