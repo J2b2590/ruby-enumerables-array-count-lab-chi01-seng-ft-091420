@@ -1,11 +1,11 @@
 def count_strings(array)
 
   # Return the total number of strings in the provided array using the count enumerable
-nums = []
+
 nums = array.select {
     |element| element.is_a?(Integer)
   }
-nums.count[0][0]
+nums.length
 
 nums
 end
