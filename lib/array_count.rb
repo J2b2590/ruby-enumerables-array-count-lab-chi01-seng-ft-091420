@@ -10,8 +10,9 @@ nums = []
   while index < array.length do
     if array.select {
         |element| element.is_a?(Integer)
+        nums << array.select
       }
-      nums << array.select
+       
     end
     index += 1
   end
