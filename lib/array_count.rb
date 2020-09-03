@@ -7,7 +7,7 @@ nums = array.select {
   }
 nums.length
 
-nums
+
 end
 
 def count_empty_strings(array)
