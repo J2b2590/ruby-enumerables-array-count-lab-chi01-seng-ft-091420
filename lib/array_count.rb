@@ -1,8 +1,7 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
-  string = ""
-  array.keep_if {
-    |num| num != string && > 0
+  array.select { 
+    |element| element.is_a?(Integer) 
   }
 end
 
