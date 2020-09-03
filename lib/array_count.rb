@@ -1,7 +1,7 @@
 def count_strings(array)
 
   # Return the total number of strings in the provided array using the count enumerable
- nums = array.select {|element| element.is_a?(String)}
+ nums = array.select {|element| element.is_a?(String)}.count
 
  nums
 
