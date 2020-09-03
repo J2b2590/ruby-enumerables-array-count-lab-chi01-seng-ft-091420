@@ -15,5 +15,4 @@ puts array.select {|element| element == ""}.count
 
 array.select {|element| element == ""}.count
 
-
-  end
+end
