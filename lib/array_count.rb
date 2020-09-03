@@ -14,9 +14,9 @@ i = 0
 empty_array = []
 while i < array.count do
   if array == " "
-    empty_array << array
+    empty_array << array.count
   end
   i += 1
 end
-empty_array.count
+empty_array
 end
