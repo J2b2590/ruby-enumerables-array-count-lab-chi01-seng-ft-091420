@@ -15,7 +15,7 @@ nums = []
     end
     index += 1
   end
-nums.count
+array
 
 end
 
