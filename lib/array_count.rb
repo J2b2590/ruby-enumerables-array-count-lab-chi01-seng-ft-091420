@@ -4,8 +4,6 @@ def count_strings(array)
  array.select {|element| element.is_a?(String)}.count
 
 
-
-
 end
 
 def count_empty_strings(array)
@@ -18,5 +16,5 @@ def count_empty_strings(array)
     end
     i += 1
   end
-    empty_array.count
+    puts empty_array
   end
