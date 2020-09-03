@@ -14,5 +14,5 @@ def count_empty_strings(array)
   puts array.empty?
 
 
-  
+
 end
