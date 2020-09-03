@@ -5,14 +5,16 @@ def count_strings(array)
 
 
 
-nums = []
+
 
 
  nums = array.select {
         |element| element.is_a?(Integer)
       }
 
-nums
+length_of_num = nums.length
+
+length_of_num
 
 
 end
