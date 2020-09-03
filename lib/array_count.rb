@@ -12,7 +12,7 @@ nums = []
         |element| element.is_a?(Integer)
       }
 
-array
+array.select
 
 
 end
