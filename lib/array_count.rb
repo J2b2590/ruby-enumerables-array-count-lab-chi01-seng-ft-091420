@@ -8,13 +8,9 @@ def count_strings(array)
 
 
 
- nums = array.select {
-        |element| element.is_a?(Integer)
-      }
+ nums = array.select {|element| element.is_a?(Integer)}.count
 
-length_of_num = nums.length
-
-length_of_num
+ nums
 
 
 end
